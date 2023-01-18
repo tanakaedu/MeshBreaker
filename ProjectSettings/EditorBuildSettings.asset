@@ -6,6 +6,6 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/MeshBreaker/Scenes/MeshBreakerDemo.unity
+    path: Assets/MeshBreaker/Demo/Scenes/MeshBreakerDemo.unity
     guid: ce1bccae60809344d9460e0b6453066b
   m_configObjects: {}

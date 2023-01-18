@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<engine:UXML
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:engine="UnityEngine.UIElements"
+    xmlns:editor="UnityEditor.UIElements"
+    xsi:noNamespaceSchemaLocation="../../../UIElementsSchema/UIElements.xsd"
+>
+
+    <engine:Button text="情報更新" display-tooltip-when-elided="true" name="updateButton" />
+    <engine:ScrollView name="facesView" />
+    <engine:SliderInt picking-mode="Ignore" label="統合ポリゴン数" value="10" high-value="100" name="mergeSlider" low-value="1" show-input-field="true" style="flex-direction: row;" />
+    <engine:TextField name="integerInput" text="10" max-length="3" />
+    <engine:Button text="生成開始" display-tooltip-when-elided="true" name="procButton" />
+
+</engine:UXML>
