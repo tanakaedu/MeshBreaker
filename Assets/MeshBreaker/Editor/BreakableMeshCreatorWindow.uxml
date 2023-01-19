@@ -1,15 +1,6 @@
-<?xml version="1.0" encoding="utf-8"?>
-<engine:UXML
-    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-    xmlns:engine="UnityEngine.UIElements"
-    xmlns:editor="UnityEditor.UIElements"
-    xsi:noNamespaceSchemaLocation="../../../UIElementsSchema/UIElements.xsd"
->
-
-    <engine:Button text="情報更新" display-tooltip-when-elided="true" name="updateButton" />
-    <engine:ScrollView name="facesView" />
-    <engine:SliderInt picking-mode="Ignore" label="統合ポリゴン数" value="10" high-value="100" name="mergeSlider" low-value="1" show-input-field="true" style="flex-direction: row;" />
-    <engine:TextField name="integerInput" text="10" max-length="3" />
-    <engine:Button text="生成開始" display-tooltip-when-elided="true" name="procButton" />
-
-</engine:UXML>
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../../UIElementsSchema/UIElements.xsd" editor-extension-mode="True">
+    <ui:Button text="情報更新" display-tooltip-when-elided="true" name="updateButton" tooltip="選択しているオブジェクトのポリゴン数を調べます" />
+    <ui:ScrollView name="facesView" />
+    <ui:SliderInt picking-mode="Ignore" label="統合するポリゴンの数" value="10" high-value="100" show-input-field="true" low-value="1" name="mergeSlider" />
+    <ui:Button text="破壊オブジェクトの&#10;生成開始" display-tooltip-when-elided="true" name="procButton" />
+</ui:UXML>
