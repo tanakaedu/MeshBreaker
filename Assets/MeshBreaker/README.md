@@ -9,8 +9,8 @@
 
 [動作デモ](https://tanakaedu.github.io/MeshBreaker/WebGL/index.html)
 
-WASDキーか矢印キーで白い球体を操作して
-赤い球体に触れると、赤い球体が破壊されます。
+WASDキーか矢印キーで赤い球体を操作します。
+赤い球体で白い球体に触れると破壊します。
 
 ## エディター拡張の利用準備
 
