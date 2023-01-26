@@ -17,8 +17,8 @@ WASDキーか矢印キーで赤い球体を操作します。
 ### パッケージをプロジェクトへ組み込む
 以下の手順でパッケージをダウンロードしてプロジェクトに組み込みます。
 
-1. Releasesから最新のものを選択して `MeshBreaker.unitypackage` をダウンロードします
-1. ダウンロードしたMeshBreaker.unitypackageファイルをドラッグして、組み込みたいUnityプロジェクトのProjectウィンドウにドロップしてインポートします
+1. Releasesから最新のものを選択して `MeshBreaker???.unitypackage` をダウンロードします
+1. ダウンロードしたMeshBreaker???.unitypackageファイルをドラッグして、組み込みたいUnityプロジェクトのProjectウィンドウにドロップしてインポートします
 
 ### レイヤーとタグの設定
 Unityプロジェクトに必要なレイヤーとタグの作成と設定をします。
